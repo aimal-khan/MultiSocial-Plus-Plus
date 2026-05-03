@@ -1,0 +1,62 @@
+{
+  "preprocessing": {
+    "sequential_sec": 1.706,
+    "parallel_sec": 1.389,
+    "speedup": 1.228,
+    "texts_processed": 50000,
+    "cpu_cores": 2
+  },
+  "tfidf_lr": {
+    "macro_f1": 0.7262,
+    "accuracy": 0.9098,
+    "train_time_sec": 52.3
+  },
+  "xlmr_baseline": {
+    "macro_f1": 0.7632,
+    "accuracy": 0.914
+  },
+  "xlmr_optimized": {
+    "macro_f1": 0.8132,
+    "accuracy": 0.928
+  },
+  "inference": {
+    "pytorch": {
+      "throughput": 5,
+      "macro_f1": 0.7632
+    },
+    "onnx": {
+      "throughput": 6,
+      "macro_f1": 0.8132,
+      "speedup": 1.182
+    },
+    "onnx_int8": {
+      "throughput": 11,
+      "macro_f1": 0.7639,
+      "speedup": 1.932
+    }
+  },
+  "model_sizes": {
+    "onnx_mb": 1112.4,
+    "quantized_mb": 278.9
+  },
+  "per_language_f1": {
+    "hu": 0.7167,
+    "de": 0.8182,
+    "ro": 0.4839,
+    "el": 0.4444,
+    "ru": 0.6634,
+    "et": 1.0,
+    "en": 0.8825,
+    "hr": 1.0,
+    "nl": 0.6434,
+    "ca": 0.8523,
+    "uk": 1.0,
+    "es": 0.7831,
+    "ar": 0.7167,
+    "cs": 0.4857,
+    "bg": 0.6516,
+    "pt": 0.8857,
+    "zh": 1.0,
+    "pl": 0.8906
+  }
+}

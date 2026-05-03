@@ -1,0 +1,21 @@
+# --- Course Related (Excluded by User Request) ---
+Nlp Research Project Guidelines.pdf
+Phase01_Proposal_MultiSocial_AimalKhan_AwaisArshad.docx
+
+# --- Large Binary Files (Exceeding GitHub Limits) ---
+*.pt
+*.pkl
+*.safetensors
+*.onnx
+
+# --- Temporary/Output Folders ---
+**/checkpoint-*/
+outputs/xlmr_baseline/
+outputs/xlmr_onnx/
+outputs/xlmr_optimized/
+outputs/xlmr_quantized/
+
+# --- System Files ---
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/

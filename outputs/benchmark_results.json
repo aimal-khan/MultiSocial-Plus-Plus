@@ -1,0 +1,9 @@
+{
+  "preprocessing": {
+    "sequential_sec": 1.706,
+    "parallel_sec": 1.389,
+    "speedup": 1.228,
+    "texts_processed": 50000,
+    "cpu_cores": 2
+  }
+}
